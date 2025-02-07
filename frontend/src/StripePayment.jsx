@@ -9,7 +9,7 @@ import "./StripePayment.css";
 // recreating the Stripe object on every render.
 // This is your test publishable API key.
 const stripePromise = loadStripe(
-  "pk_test_51N9TTzAx5un0U0mJbl9Ha8mi1TdVPRd4WgGSk5pGPfZEFqKoIlksgaznEOQ25cLCbRMfiU9osCcGQTCY1m4BKXp600xvQ3uQCz"
+  "pk_test_51Qpsj2B9huMYGpyF2Ez8uEsoqzUxLq8umaUq9j2ealu9gAAzFwVmHHq11pKiBPFvm6VudhP0uDRpL0LcPkZOmT8l00FJqHNRpv"
 );
 
 export default function StripePayment({ customerData }) {
