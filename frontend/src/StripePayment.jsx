@@ -11,7 +11,6 @@ import "./StripePayment.css";
 const stripePromise = loadStripe(
   "pk_test_51Qpsj2B9huMYGpyF2Ez8uEsoqzUxLq8umaUq9j2ealu9gAAzFwVmHHq11pKiBPFvm6VudhP0uDRpL0LcPkZOmT8l00FJqHNRpv"
 );
-
 export default function StripePayment({ customerData }) {
   const [clientSecret, setClientSecret] = useState("");
 
